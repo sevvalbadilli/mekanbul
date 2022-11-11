@@ -1,3 +1,4 @@
+
 var mongoose = require('mongoose' );
 require("./mekansema"); 
 var dbURI = 'mongodb://localhost/mekanbul';
