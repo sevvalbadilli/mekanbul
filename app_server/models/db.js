@@ -1,4 +1,3 @@
-
 var mongoose = require('mongoose' );
 require("./mekansema"); 
 var dbURI = 'mongodb://localhost/mekanbul';
@@ -17,7 +16,7 @@ process.on("SIGINT", function () {
 });
 
 
-mongoose.connection.on("conected", function(){
+mongoose.connection.on("connected", function(){
     console.log(dbURI + "adresindeki veritabanına bağlanıldı\n");
 });
 mongoose.connection.on("error", function(){
