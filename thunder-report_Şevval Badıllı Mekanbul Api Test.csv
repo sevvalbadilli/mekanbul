@@ -2,7 +2,7 @@ Client, Thunder Client
 CollectionName, Şevval Badıllı Mekanbul Api Test
 FolderName, 
 EnvironmentName, mekanbul
-DateExported, 2022-11-24T19:51:47.202Z
+DateExported, 2022-11-26T09:26:20.491Z
 Total Iterations, 1
 Total Passed, 1
 Total Failed, 0
@@ -12,12 +12,12 @@ Failed Iterations Numbers,
 
 Iteration, 1
 Method, Name, Url, Status, Time, Passed, Total, Result
-POST, Mekan Ekle, http://localhost:3000/api/mekanlar, 200, 37 ms, 0, 0, N/A
-GET, Mekanları Listele, http://localhost:3000/api/mekanlar?enlem=37.7&boylam=35.4, 200, 17 ms, 0, 0, N/A
-GET, Mekan Getir, http://localhost:3000/api/mekanlar/6378f3e44cae957c7f243673, 200, 12 ms, 0, 0, N/A
-PUT, Mekan Güncelle, http://localhost:3000/api/mekanlar/6378f3e44cae957c7f243673, 200, 14 ms, 0, 0, N/A
-POST, Yorum Ekle, http://localhost:3000/api/mekanlar/6378f3e44cae957c7f243673/yorumlar/, 201, 12 ms, 0, 0, N/A
-GET, Yorum Getir, http://localhost:3000/api/mekanlar/6378f3e44cae957c7f243673/yorumlar/637fcacb1099f9c6f6f9d57b, 200, 6 ms, 0, 0, N/A
-PUT, Yorum Güncelle, http://localhost:3000/api/mekanlar/6378f3e44cae957c7f243673/yorumlar/637fcacb1099f9c6f6f9d57b, 200, 10 ms, 0, 0, N/A
-DELETE, Yorum sil, http://localhost:3000/api/mekanlar/6378f3e44cae957c7f243673/yorumlar/637fcacb1099f9c6f6f9d57b, 200, 10 ms, 0, 0, N/A
-DELETE, Mekan Sil, http://localhost:3000/api/mekanlar/6378f3e44cae957c7f243673, 200, 7 ms, 0, 0, N/A
+POST, Mekan Ekle, http://localhost:3000/api/mekanlar, 201, 37 ms, 1, 1, Pass
+GET, Mekanları Listele, http://localhost:3000/api/mekanlar?enlem=37.7&boylam=35.4, 200, 17 ms, 1, 1, Pass
+GET, Mekan Getir, http://localhost:3000/api/mekanlar/6381db2c176794da0816ff6f, 200, 12 ms, 1, 1, Pass
+PUT, Mekan Güncelle, http://localhost:3000/api/mekanlar/6381db2c176794da0816ff6f, 200, 15 ms, 1, 1, Pass
+POST, Yorum Ekle, http://localhost:3000/api/mekanlar/6381db2c176794da0816ff6f/yorumlar/, 201, 12 ms, 1, 1, Pass
+GET, Yorum Getir, http://localhost:3000/api/mekanlar/6381db2c176794da0816ff6f/yorumlar/6381db2c176794da0816ff7e, 200, 6 ms, 1, 1, Pass
+PUT, Yorum Güncelle, http://localhost:3000/api/mekanlar/6381db2c176794da0816ff6f/yorumlar/6381db2c176794da0816ff7e, 200, 45 ms, 1, 1, Pass
+DELETE, Yorum sil, http://localhost:3000/api/mekanlar/6381db2c176794da0816ff6f/yorumlar/6381db2c176794da0816ff7e, 200, 12 ms, 1, 1, Pass
+DELETE, Mekan Sil, http://localhost:3000/api/mekanlar/6381db2c176794da0816ff6f, 200, 9 ms, 1, 1, Pass
