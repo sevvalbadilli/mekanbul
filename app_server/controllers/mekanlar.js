@@ -3,7 +3,7 @@ var router = express.Router();
 const axios = require("axios");
 
 var apiSecenekleri = {
-  sunucu:"https://mekanbul.sevvalbdl.repl.co",
+  sunucu:"https://mekanbul-2.sevvalbdl.repl.co",
   apiYolu:"/api/mekanlar/",
 };
 var mesafeyiFormatla = function(mesafe){
